@@ -1,0 +1,180 @@
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>RoyalRespite</title> 
+    <link rel="shortcut icon" href="./Royal hotel.jpg" type="image/x-icon"> 
+    <style> 
+        h1{ 
+            text-align: center; 
+            border: 3px double black;   
+            font-size: 70px; 
+             
+        } 
+        section{ 
+            justify-content: center; 
+            width: 80%; 
+            margin: auto; 
+            padding: 50px; 
+            border: 1px solid black; 
+            background-repeat: no-repeat; 
+            background-image: linear-gradient(to bottom right, blueviolet, rgb(231, 231, 236));
+ 
+             
+        } 
+        h2{ 
+            
+            font-size: 40px; 
+           
+        } 
+        table { 
+        width: 100%; 
+        border: 1px solid black; 
+        border-collapse: collapse; 
+        font-size: 20px; 
+    } 
+    td, th { 
+        text-align: center; 
+        border: 1px solid black; 
+        padding: 10px; 
+        font-size: 20px; 
+         
+    } 
+    
+    </style>     
+</head> 
+<body> 
+    <section>    
+    <h1><u><b>Accommodation Reservation Form</b></u></h1><br> 
+ 
+    <marquee behavior="alternate" style="background-color: blueviolet;"><h2><i>Royal Respite Hotel</i></h2></marquee><br><br><br><br> 
+ 
+    <table> 
+        <tr> 
+            <td style="width: 50%;"><b>Los Angeles</b> 
+            </td> 
+            <td style="width: 50%;"><b>Id Reference for Room Block:</b><br><span style="color: brown;">Royal Respite Hotel</span></td> 
+        </tr>   
+ 
+    </table><br><br><br> 
+ 
+    <label for="Guest_Details" style="font-size: 25px;"><b><u><mark > Guest Details</mark></u></b></label><br><br> 
+    <form action="form.html"> 
+    <table> 
+        <tr> 
+            <td style="width: 18%;"><label for="title">(<b>Mr/Ms/Mrs) : </b></label> 
+                 
+            </td> 
+            <td style="width: 2%;"><input type="text" id="title" size="1"></td> 
+            <td style="width: 26%;"><label for="name"><b>Guest name : </b></label></td> 
+            <td style="width: 50%;"><input type="text" id="name" size="65" placeholder="Enter Your Name" required></td> 
+        </tr> 
+        <tr> 
+            <td style="width: 18%;"><label for="cname"><b>Company Name : </b></label></td> 
+            <td colspan="3"><input type="text" id="cname" size="110" placeholder="Enter Your Company Name" required></td> 
+        </tr> 
+        <tr> 
+            <td style="width: 18%;"><label for="add"><b>Address Details : </b></label></td> 
+            <td colspan="3"><textarea id="add" cols="5" rows="4" placeholder="Address" required style="width: 802px; height: 84px; background-color: rgb(202, 130, 89);"></textarea></td> 
+        </tr> 
+        <tr> 
+            <td style="width: 20%;"><label for="tel"><b>Telephone Number : </b></label></td> 
+            <td style="width: 50%; padding: 10px 560px 10px 0px;" colspan="3"><input type="tel" id="tel" size="30" placeholder="+917359501932" required ></td> 
+ 
+        </tr> 
+        <tr> 
+            <td style="width: 18%;"><label for="email"><b>Email Address : </b></label></td> 
+            <td style="width: 50%; padding: 10px 560px 10px 0px;" colspan="3"><input type="email" id="email" size="30" placeholder="madaliayaromin@gmail.com" required ></td> 
+        </tr> 
+        <tr > 
+            <td><label for="room"><b>Room Type : </b></label></td> 
+            <td style="font-size: 15px;" colspan="2";> 
+                <input type="radio" name="roomtype">SUPERIOR 
+                <input type="radio" name="roomtype">LUXURY 
+                <input type="radio" name="roomtype">LUXURY CLUB 
+            </td> 
+                <td> 
+                <select name="bgcolor" id="" style="background-color: blanchedalmond;"> 
+                <option value="SINGLE">SINGLE</option> 
+                <option value="DOUBLE">DOUBLE</option> 
+            </select> 
+            </td> 
+        </tr> 
+ 
+    </table><br><br> 
+ 
+    <label for="Reservation_Details" sstyle="font-size: 25px;"><b><u>Reservation Details</u></b></label><br><br> 
+ 
+    <table class="t1"> 
+        <tr> 
+            <th style="width: 50%;">Room Type :</th> 
+            <th>Room Rate (per room/per night) :</th> 
+        </tr> 
+        <tr> 
+            <td>SUPERIOR SINGLE</td> 
+            <td>AED 750</td> 
+        </tr> 
+        <tr> 
+            <td>SUPERIOR DOUBLE</td> 
+            <td>AED 800</td> 
+        </tr> 
+        <tr> 
+            <td>LUXURY ROOM SINGLE</td> 
+            <td>AED 850</td> 
+        </tr> 
+        <tr> 
+            <td>LUXURY ROOM DOUBLE</td> 
+            <td>AED 900</td> 
+        </tr> 
+        <tr> 
+            <td>LUXURY CLUB ROOM SINGLE</td> 
+            <td>AED 950</td> 
+        </tr> 
+        <tr> 
+            <td>LUXURY CLUB ROOM DOUBLE</td> 
+            <td>AED 1000</td> 
+        </tr> 
+        
+    </table><br><br><br> 
+ 
+    <table> 
+        <tr> 
+        <th rowspan="2">Check-in<br>Date</th> 
+        <th colspan="3">Arrival Details</th> 
+        <th rowspan="2">Check-out<br>Date</th> 
+        <th colspan="3">Departure Details</th> 
+    </tr> 
+    <tr> 
+        <th>Id Number</th> 
+        <th>Room Number</th> 
+        <th>Arrival Time</th> 
+        <th>Id Number</th> 
+        <th>Room Number</th> 
+        <th>Departure Time</th> 
+    </tr> 
+    <tr> 
+        <td><input type="date" size="10"></td> 
+        <td><input type="text" size="10" name="" id=""></td> 
+        <td><input type="tel" size="10"></td> 
+        <td><input type="time" size="10"></td> 
+        <td><input type="date" size="10"></td> 
+        <td><input type="text" name="" id="" size="10"></td> 
+        <td><input type="text" size="10"></td> 
+        <td><input type="time" size="10"></td> 
+        
+    </tr> 
+ 
+    </table><br><br><br> 
+    <div style="text-align: center;"> 
+    <input type="submit"  style="background-color: red; width: 100px; height: 40px;" value="SUBMIT" > 
+    <input type="reset" style="background-color: red; width: 100px; height: 40px;" value="RESET"> 
+</div> 
+ 
+</form> 
+</section> 
+  
+     
+</body> 
+</html>

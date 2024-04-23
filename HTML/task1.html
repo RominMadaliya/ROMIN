@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+             justify-content: center; 
+        
+        }
+        h1{
+            font-size: 50px;
+        }
+        fieldset{
+            padding: 20px;
+        }
+        .s1{
+            border: 5px double black;
+            margin: 100px 400px 100px 400px; 
+            padding: 40px 40px 40px 40px; 
+            background-color: lightsalmon;
+        }
+        body{
+            background-color: lightpink;
+        }
+        .s2{
+            background-color: lightskyblue;
+        }
+       
+    </style>
+</head>
+<body>
+    <section class="s1">
+    <section>
+    <h1>Reservation Request</h1>
+</section>
+    
+    <form action="form.html">
+    <fieldset style="border: 2px solid black;">
+        <legend style="color: blue; font-size: 30px;"><b>General Information</b></legend>
+        <section class="s2">
+        <table>
+            <tr>
+                <td><label for="Adate" style="font-size: 20px;"><b>Arrival Date :</b></label></td>
+                <td><input type="date" id="Adate" required><span style="color: red;">    <b>Arrival Date is Invalid</span></td>
+            </tr>
+            <tr>
+                <td><label for="night" style="font-size: 20px;"><b>Nights :</b></label></td>
+                <td><input type="text" id="night"><span style="color: red;">    <b>Night must be a Number</span></td>
+            </tr>
+            <tr>
+                <td><label for="adults" style="font-size: 20px;"><b>Adults :</b></label></td>
+                <td>
+                    <select name="" id="adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="child" style="font-size: 20px;"><b>Childrens :</b></label></td>
+                <td>
+                    <select name="" id="child">
+                        <option value="1">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </section>
+    </fieldset>
+<br><br>
+<fieldset style="border: 2px solid black;">
+    <legend style="color: blue; font-size: 30px;"><b>Preferences</b></legend>
+    <section class="s2">
+    <table>
+        <tr>
+            <td>
+                <label for="room" style="font-size: 20px;"><b>Room Type :</b></label>
+            </td>
+            <td>
+                <input type="radio" name="room" id="room"><b>Standared</b>
+                <input type="radio" name="room" id="room"><b>Business</b>
+                <input type="radio" name="room" id="room"><b>Suite</b>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <label for="bed" style="font-size: 20px;"><b>Bed Type :</b></label>
+            </td>
+            <td>
+                <input type="radio" name="bed" id="bed"><b>King</b>
+                <input type="radio" name="bed" id="bed"><b>Double Double</b>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="smoke" id="smoke"><b>Smoking</b></td>
+        </tr>
+    </table>
+</section>
+    </fieldset>
+<br><br>
+<fieldset style="border: 2px solid black;">
+    <legend style="color: blue; font-size: 30px;"><b>Preferences</b></legend>
+    <section class="s2">
+    <table>
+        <tr>
+            <td><label for="name" style="font-size: 20px;"><b>Name :</b></label></td>
+            <td><input type="text" id="name" required><span style="color: red;">    <b>Name is required</span></td>
+        </tr>
+        <tr>
+            <td><label for="email" style="font-size: 20px;"><b>Email :</b></label></td>
+            <td><input type="email" id="email" required><span style="color: red;">    <b>Email Address is Invalid</span></td>
+        </tr>
+        <tr>
+            <td><label for="phone" style="font-size: 20px;"><b>Phone :</b></label></td>
+            <td><input type="number" id="phone" required><span style="color: red;">    <b>Phonr Number is Invalid</span></b></td>
+        </tr>
+    </table>
+</section>
+    </fieldset>
+<br><br>
+
+<section style="text-align: center;" >
+    <input type="submit" value="Submit Reservation" style="background-color: lightgray; width: 150px; height: 40px;">
+    <input type="reset" value="Clear" style="background-color: lightgray; width: 120px; height: 40px;">
+</section>
+
+
+
+</form>
+<br><br><br><br>
+</section>
+</body>
+</html>
