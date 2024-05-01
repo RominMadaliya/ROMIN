@@ -1,0 +1,31 @@
+/* header h1{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: violet;
+    
+} */
+
+/* header{
+    height: 100px;
+    background-color: aqua;
+} */
+    
+header h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+header button{
+    /* display: flex;
+    margin: auto;    */
+
+    text-align: center;
+    background-color: aliceblue;
+}
+
+button{
+    /* justify-content: center;
+    align-items: center;
+    margin-left: 50px; */
+}

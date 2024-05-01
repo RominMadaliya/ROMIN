@@ -1,0 +1,30 @@
+.d1{
+    background-color: lawngreen;
+    justify-content: center;
+    width: 1250px;
+    height: 700PX;
+    margin: 80px;
+}
+
+h1{
+    padding-left:100px ;
+    padding-top: 50px;
+    font-family: cursive;
+    font-size: 40px;
+}
+section{
+    width: 1170px;
+    height: 567PX;
+    background-color: grey;
+    margin-left: 80px;
+    text-align: center;
+    
+}
+
+a{
+    color: white;
+}
+
+nav{
+    display: flex;
+}
