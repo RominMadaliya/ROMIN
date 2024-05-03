@@ -1,0 +1,107 @@
+.container{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marquee{
+    display: flex;
+    justify-content: center;
+align-items: center;}
+#one{
+    background-color: aquamarine;
+    color: red;
+    border: 20px solid green;
+}
+#two{
+    background-color: orange;
+    color: blue;
+    border-color: orangered;
+    border-width: 20PX;
+    border-style: dotted;
+}
+#three{
+    background-color: tomato;
+    color: olive;
+    border-color: rgb(145, 45, 45);
+    border-width: 20PX;
+    border-style: double;
+}
+#four{
+    border: 20px solid green;
+    border-width: 20PX;
+    border-style: groove;
+    border-radius: 20px;
+}
+#five{
+    background-color: tomato;
+    color: olive;
+    border-color: rgb(145, 45, 45);
+    border-width: 20px;
+    border-style: dashed;
+}
+#six{
+    background-color: orange;
+    color: blue;
+    border-color: orangered;
+    border-width: 20PX;
+    border-style: ridge;
+    border-radius: 20px;
+}
+#seven{
+    border: 20px solid green;
+    border-width: 20PX;
+    border-style: inset;
+}
+#eight{
+    background-color: orange;
+    color: blue;
+    border-color: orangered;
+    border-width: 20PX;
+    border-style: outset;
+}
+p{
+   
+    margin-left: 50PX;
+    margin-top: 20PX;
+}
+.main{
+    /* display: flex; */
+    margin-top: 10px;
+}
+hr{
+    border-color: red;
+    border-style: solid;
+   
+}
+.h1{
+    margin-top: 50px;
+}
+
+
+
+/* main{
+    animation: mymove 5s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+/* } */ */
+
+/* .main>div:hover{
+    transform: scale(1.2);   
+}   */
+
+
+/* @keyframes mymove {
+    0%   {background-color: red;
+
+    translate:100%;
+}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  } */
+  
