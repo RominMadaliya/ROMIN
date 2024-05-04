@@ -68,6 +68,7 @@ p{
     margin-top: 20PX;
 }
 .main{
+    width: 500px;
     /* display: flex; */
     margin-top: 10px;
 }
