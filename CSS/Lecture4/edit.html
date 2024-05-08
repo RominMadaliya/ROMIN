@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+
+
+    .main {
+      /* display: inline-block; */
+      display: flex;
+    }
+
+    section {
+        width: 50%;
+      background-color: aquamarine;
+    }
+
+    .odd {
+        width: 100px;
+        height: 100px;
+      background-color: red;
+    }
+    .main div{
+        display: flex;
+    justify-content: center;
+        align-items: center;
+    }
+
+    .even {
+        
+        width: 100px;
+        height: 100px;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <hr class="h1" />
+    <hr />
+    <section class="main">
+      <marquee class="marquee" behavior="scroll" direction="left">
+        <div class="main">
+            <div class="odd">
+                <p class="container">solid</p>
+              </div>
+              <div class="even">
+                <p class="container" id="two">doteed</p>
+              </div>
+              <div class="odd">
+                <p class="container" id="three">double</p>
+              </div>
+              <div class="even">
+                <p class="container" id="four">groove</p>
+              </div>
+              <div class="odd">
+                <p class="container" id="five">dashed</p>
+              </div>
+              <div class="even">
+                <p class="container" id="six">ridgh</p>
+              </div>
+              <div class="odd">
+                <p class="container" id="seven">inset</p>
+              </div>
+              <div class="even">
+                <p class="container" id="eight">outset</p>
+              </div>
+        </div>
+      </marquee>
+    </section>
+
+    <hr />
+    <hr />
+  </main>
+</body>
+</html>

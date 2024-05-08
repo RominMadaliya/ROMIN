@@ -78,7 +78,11 @@ hr{
    
 }
 .h1{
+    off
     margin-top: 50px;
+}
+.d1{
+    display: flex;
 }
 
 
