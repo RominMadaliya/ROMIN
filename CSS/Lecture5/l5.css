@@ -40,3 +40,7 @@ div {
     border-radius: 50%;
     background-color: red;
 }
+
+.box3{
+    visibility: hidden;
+}
