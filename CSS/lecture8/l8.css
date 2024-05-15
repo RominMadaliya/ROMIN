@@ -1,0 +1,31 @@
+*{
+    /* box-sizing: border-box; */
+
+}
+main{
+    /* display: flex; */
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 90%;
+    background-color: rosybrown;
+}
+
+nav{
+    display: flex;
+    padding-left: 50px;
+}
+span{
+    margin-top: 35px;
+}
+
+.t1{
+    display: inline-block;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+}
