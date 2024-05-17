@@ -70,3 +70,8 @@ p{
     grid-column: 1/4;
     background-color: rgb(117,93,221)
 }
+
+.icon{
+    font-size: 60px;
+    color: crimson;
+}
