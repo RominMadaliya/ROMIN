@@ -58,3 +58,27 @@
     font-weight: bold ;
     border-radius: 10px;
 }
+
+.list{
+    border: none;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+section{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+
+}
+.bg{
+    background-color: blue;
+}
+.info{
+    display: flex;
+}
+.aset1{
+    height: 500px;
+    width: 500px;
+}
