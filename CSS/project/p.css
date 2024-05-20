@@ -96,10 +96,22 @@
 .left_side{
     background-color: rgb(10,28,68);
     color: white;
-    padding: 10% 20%;
+    padding: 8% 20%;
 }
-
-
+.left_side h1{
+    font-size: 60px;
+}
+.left_side p{
+    padding-top: 10%;
+    font-size: 20px;
+}
+.left_side .hero_section_buttons {
+    padding-top: 8%;
+    
+}
+.left_side .hero_section_buttons a{
+border: 2px solid black;
+}
 
 @media (min-width:0px) and (max-width:800px) {
     .nav{
