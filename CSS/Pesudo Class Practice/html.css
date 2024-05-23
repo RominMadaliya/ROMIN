@@ -1,0 +1,24 @@
+/* a:first-child{
+    background-color: yellow;
+    color: red;
+}
+h1:only-child{
+    background-color: yellow;
+    color: red;
+}
+div:nth-of-type(2) h1:nth-child(2){
+    background-color: yellow;
+    color: red;
+}
+a:nth-of-type(4){
+    background-color: yellow;
+    color: red;
+}
+h1:last-of-type{
+    background-color: yellow;
+    color: red;
+} */
+:not(h1){
+    background-color: yellow;
+    color: red;
+}
