@@ -1,0 +1,119 @@
+.main-container-1{
+    border: 2px dotted black;
+    display: flex;
+    gap: 2%;
+    width: fit-content;
+    margin: auto;
+    padding: 2%;
+   
+}
+.sub-container-1{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.sub-container-2{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: green;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.sub-container-3{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.sub-container-4{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.main-container-2{
+    border: 2px dotted black;
+    display: flex;
+    gap: 2%;
+    width: fit-content;
+    margin: auto;
+    padding: 2%;
+}
+
+.sub2-container-1{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.sub2-container-2{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: green;
+    font-weight: bolder;
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+    left: 80px;
+}
+.sub2-container-3{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.sub2-container-4{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.main-container-3{
+    border: 2px dotted black;
+    display: flex;
+    gap: 2%;
+    width: fit-content;
+    margin: auto;
+    padding: 2%;
+   
+}
+.sub3-container-1{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.sub3-container-2{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: green;
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    top: 700px;
+    left: 450px;
+}
+.sub3-container-3{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.sub3-container-4{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 50px;
+}
