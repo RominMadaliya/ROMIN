@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "jost", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.list {
+  width: 30%;
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  position: relative;
+}
+
+a.tooltip::after {
+  position: absolute;
+  content: "HOT";
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 6px;
+  top: -20px;
+  right: -10px;
+  clip-path: polygon(0 21%, 100% 21%, 100% 75%, 75% 75%, 43% 99%, 50% 75%, 0% 75%);
+}
+
+.list a::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: brown;
+  position: absolute;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.list a:hover::before {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+.background-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+main P {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+/*# sourceMappingURL=donet.css.map */

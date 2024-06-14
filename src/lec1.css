@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(150, 190, 186);
+  width: 100vw;
+}
+body header {
+  padding: 0 2rem;
+  background-color: #ebedf0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body header .logo {
+  width: 8%;
+  margin-left: 2%;
+  padding: 2% 0;
+}
+body header .logo img {
+  width: 100%;
+}
+body header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  align-self: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+body header ul li a {
+  text-decoration: none;
+  color: #1c1e21;
+}
+body header .btn {
+  display: flex;
+  gap: 0.5rem;
+  align-self: center;
+  justify-content: space-between;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0.3rem;
+  border-radius: 10px;
+  background-color: rgba(204, 157, 157, 0.293);
+  margin: -1rem 0;
+}
+body header .btn .btn1 {
+  width: 100%;
+  -webkit-backdrop-filter: opacity(0.1);
+          backdrop-filter: opacity(0.1);
+}/*# sourceMappingURL=lec1.css.map */
