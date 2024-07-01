@@ -1,322 +1,121 @@
+/* Javascript Hoisting */
 
-//  JAVASCRIPT HOISTING : - >
+// var with Hoisting
+var a, b, c;
 
-//  1) VAR HOISTING :
+var a;
+var b;
+var c;
 
-    // var a, b, c;
+a = 10; 
+b = 20;
+c = 30;
 
-    // a = 10;
-    // b = 20;
-    // c = 30;
+console.log(a);
+console.log(b);
+console.log(c);
 
-    // console.log(a);
-    // console.log(b);
-    // console.log(c);
+// let With Hoisting
+// let x, y, z;
 
-// LET HOISTING :
+let x;
+let y;
+let z;
 
-    // let a, b, c;
+x = 40;
+y = 50; 
+z = 60;
+
+console.log(x);
+console.log(y);
+console.log(z);
+
+// const With Hoisting
+// const a, b, c; //Not Possible Hoisting
+const m = 14;
+console.log(m);
+
+// Javascript Template Literals (back-tik ``)
+
+let str = "Good Morning";
+
+let string1 = "Hello Javascript";
+console.log(string1);
+
+let string2 = 'Hello Javascript';
+console.log(string2);
+
+let string3 = "Hello 'JAVASCRIPT'";
+console.log(string3);
+
+let string4 = 'Hello "JAVASCRIPT"';
+console.log(string4);
+
+let string5 = "Hello \"JAVASCRIPT\"";
+console.log(string5);
+
+let string6 = 'Hello \'JAVASCRIPT\'';
+console.log(string6);
+
+let str1 = Hello World;
+console.log(str1);
+
+let str2 = Hello "World";
+console.log(str2);
+
+let str3 = Hello 'World';
+console.log(str3);
+console.log(typeof str3);
+
+let str4 = Hello World, ${str};
+console.log(str4);
+
+// Type Of Datatype
+{
+    let a = 10;
+    console.log(a);
+    console.log(typeof a);
     
-    // a = 40;
-    // b = 50;
-    // c = 60;
+    let b = '10';
+    console.log(b);
+    console.log(typeof b);
 
-    // console.log(a);
-    // console.log(b);
-    // console.log(c);
+    let c = 'Javascript';
+    console.log(c);
+    console.log(typeof c);
 
+    let d = true;
+    console.log(d);
+    console.log(typeof d);
+}
 
+// Undefine Null and NAN
+{
+    let a;
+    console.log(a);
 
-    {
+    console.log(undefined)
 
-    /* 1.Add two numbers input by the user
-*/
-    // let a, b, c;
+    let x = undefined
+    let y = null == undefined;
+    console.log(y);
+    console.log(typeof x);
+    console.log(typeof y);
 
-    // a = prompt("Please enter the first number:");
-    // console.log("The number 1 is : " ,a);
-    
-    // b = prompt("Please enter the second number:");
-    // console.log("The number 2 is : " , b);
-    
-    // c = +a + +b;
-    // console.log("Sum is : "  , c);
-    
-    }
+    y = null === undefined;
+    console.log(y);
+}
+{
+    let a = 10;
+    let b = 20;
+    let c = "Integer"
 
-    {
-    /* 2.Calculate the area of a rectangle */
-    
-        // let length, width, a;
+    console.log(a + b);
+    console.log(a + b + c);
+    console.log(a * b);
+    console.log(a * b + c);
+    console.log(a * b * c);
+    console.log(c + b + a);
+    console.log(c * b + a);
 
-        // length = prompt("Enter the rectangle Length:");
-        // console.log("The length of rectangle is :",length);
-        
-        // width = prompt("Enter the rectangle Width:");
-        // console.log("The Width of rectangle is :",width);
-
-        // a = +length * +width;
-        // console.log("The area of Rectangle is : ", a);
-
-    }
-
-
-    {
-    /* Convert temperature from Celsius to Fahrenheit */
-    
-    // let celsius = parseInt(prompt("Enter the value of Celsius"));
-    // let fahrenheit = (celsius * 9/5) + 32;
-    
-    // console.log(`Value of celsius is :- ${celsius}`);
-    // console.log(`Conversition of celsius into fahrenheit is :- ${fahrenheit}`);
-
-    }
-
-
-    {
-        // 4.Find the remainder when one number is divided by another
-
-        // let a = prompt("Enter the value of a :- ");
-        // let b = prompt("Enter the value of b :- ");
-
-        // let c = a % b;
-
-        // console.log(`Value of a is :- ${a}`); 
-        // console.log(`Value of b is :- ${b}`);
-        // console.log(`if ${a} is divide by ${b} then the remainder is :- ${c}`);
-    }
-
-
-
-    {
-        /* 5.Calculate the power of a number */
-
-        // let base = prompt("Enter the value of base");
-        // let exponent = prompt("Enter the value of exponent");
-
-        // let result = base ** exponent;
-
-        // console.log(`Value of Base is :- ${base}`);
-        // console.log(`Value of Exponent is :- ${exponent}`);
-        // console.log(`Power of number is :- ${result}`);       
-
-    }
-
-
-
-    {
-
-    /* 6.Combination of Arithmetic Operators */
-
-    // {
-    //     let a = 5;
-    //     let b = 10;
-    
-    //     let c = a + b;
-    //     console.log(c);
-    // }
-    
-    // {
-    //     let a = 5;
-    //     let b = 10;
-    //     a += b;
-    //     let c = a + b;
-    //     console.log(c);
-    // }
-    
-    // {
-    //     let a = 50;
-    //     let b = 10;
-    //     a -= b;
-    //     let c = a - b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = 5;
-    //     let b = 10;
-    //     let c = 6;
-    //     let d = a + b - c * b / a;
-    //     console.log(d);
-    // }
-    
-    }
-
-
-    {
-
-    // 7.Comparing Numbers [5 number]
-
-    // {
-    //     let a = 'Skill';
-    //     let b = 'Skill';
-    //     let c = a === b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = 'skill';
-    //     let b = 'Skill';
-    //     let c = a === b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = '14';
-    //     let b = '14';
-    //     let c = a === b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = 25;
-    //     let b = '25';
-    //     let c = a === b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = 50;
-    //     let b = 50;
-    //     let c = a === b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = 10;
-    //     let b = 20;
-    //     let c = a == b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = 20;
-    //     let b = 20;
-    //     let c = a == b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = 15;
-    //     let b = '15';
-    //     let c = a == b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = 55;
-    //     let b = '20';
-    //     let c = a == b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = '14';
-    //     let b = '14';
-    //     let c = a == b;
-    //     console.log(c);
-    // }
-    // {
-    //     let a = '14';
-    //     let b = '11';
-    //     let c = a == b;
-    //     console.log(c);
-    // }
-
-
-    }
-
-
-    {
-        //8.Comparing Strings [5 String]
-
-        // {
-        //     let a = 'Skill';
-        //     let b = 'skill';
-        //     let c = a == b;
-        //     console.log(c);
-        // }
-        // {
-        //     let a = 'Skill';
-        //     let b = 'Skill';
-        //     let c = a == b;
-        //     console.log(c);
-        // }
-        // {
-        //     let a = 'Skill';
-        //     let b = 'SKILL';
-        //     let c = a == b;
-        //     console.log(c);
-        // }
-        // {
-        //     let a = 'Skill';
-        //     let b = 'Qode';
-        //     let c = a == b;
-        //     console.log(c);
-        // }
-        // {
-        //     let a = 'SKILL';
-        //     let b = 'QODE';
-        //     let c = a == b;
-        //     console.log(c);
-        // }
-
-    }
-
-
-    {
-        //11.Complex Assignments[2 types]
-
-        // {
-        //     let a = 5;
-        //     let b = 8;
-        //     let c = 12;
-        //     let d = 15;
-        //     let e = 2;
-        
-        //     let f = d += b ** e - d / a;
-        //     console.log(f);
-        // }
-        
-        // {
-        //     let a = 10;
-        //     let b = 12;
-        //     let c = 6;
-        //     let d = 18;
-        //     let e = 2;
-        
-        //     let f = a + b * e - d / a ** e;
-        //     console.log(f);
-        // }
-    }
-
-
-    {
-        //10. Using Multiple Operators [4 types]
-
-        // {
-        //     let a = 10;
-        //     let b = 20;
-        //     let c = 5;
-        //     let d = b * a - c;
-        //     console.log(d);
-        // }
-        // {
-        //     let a = 10;
-        //     let b = 20;
-        //     let c = 5;
-        //     let d = a + b + c;
-        //     console.log(d);
-        // }
-        // {
-        //     let a = 6;
-        //     let b = 10;
-        //     let c = 5;
-        //     let d = a + b - c * a / b ;
-        //     console.log(d);
-        // }
-        // {
-        //     let a = 6;
-        //     let b = 10;
-        //     let c = 5;
-        //     let d = a - b + c / a * c ;
-        //     console.log(d);
-        // }
-        // {   
-        //     let a = 6;
-        //     let b = 10;
-        //     let c = 5;
-        //     let d = a / b + c * a - b * c;
-        //     console.log(d);
-        // }
-    }
+}
