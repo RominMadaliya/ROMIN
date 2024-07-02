@@ -63,23 +63,85 @@
 
 // 4. Find the grade for input marks
 
+// {
+//     let sub1,sub2,sub3,tot,per,grade;
+
+//     sub1 = parseInt(prompt("Enter the marks of subject1:"));
+//     console.log(sub1);
+
+//     sub2 = parseInt(prompt("Enter the marks of subject2:"));
+//     console.log(sub2);
+
+//     sub3 = parseInt(prompt("Enter the marks of subject3:"));
+//     console.log(sub3);
+
+//     console.log(`subject1 marks is:`,sub1);
+//     console.log(`subject2 marks is:`,sub2);
+//     console.log(`subject3 marks is:`,sub3);
+
+//     tot = sub1 + sub2 + sub3;
+//     console.log("The total of three subject is:",tot);
+//     // console.log(typeof tot);
+
+//     per = (sub1+sub2+sub3)/3;
+//     // console.log(typeof per);
+//     console.log("The Percentage of three subject is:",per);
+
+//     if(per>=90)
+//         {
+//             console.log("Grade A");
+//         }
+//     else if(per>=60 && per<90)
+//         {
+//             console.log("Grade B");
+//         }
+//     else if(per>=35 && per<60)
+//         {
+//             console.log("Grade C");
+//         }
+//     else
+//         {
+//         console.log("You are Fail");
+//         }
+
+// }
+
+
+// Sort three numbers
+
 {
-    let sub1,sub2,sub3,tot,per,grade;
+    let a,b,c,temp;
 
-    sub1 = prompt("Enter the marks of subject1:");
-    console.log(+sub1);
+         a = parseInt(prompt("Enter the Value of a:"));
+         console.log(a);
+    
+         b = parseInt(prompt("Enter the value of b:"));
+         console.log(b);
+    
+         c = parseInt(prompt("Enter the value of c:"));
+         console.log(c);
 
-    sub2 = prompt("Enter the marks of subject2:");
-    console.log(+sub2);
+         console.log(`yor three number is : ${a}, ${b}, ${c}`);
 
-    sub3 = prompt("Enter the marks of subject3:");
-    console.log(+sub3);
+         if(a>b)
+            {
+                temp = a;
+                a = b;
+                b = temp;
+            }
+         if(b>c)
+            {
+                temp = b;
+                b = c;
+                c = temp;
+            }
+         if(a>b)
+            {
+                temp = a;
+                a = b;
+                b = temp;
+            }
 
-    tot = Number(sub1 + sub2 + sub3);
-    console.log("The total of three subject is:",tot);
-    console.log(typeof tot);
+        console.log(`yor three sorted number is : ${a}, ${b}, ${c}`);
 
-    per = Number(sub1+sub2+sub3)/3;
-    console.log(typeof per);
-    console.log("The Percentage of three subject is:",per);
 }
