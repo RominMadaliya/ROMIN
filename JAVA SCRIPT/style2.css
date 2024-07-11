@@ -1,0 +1,38 @@
+*{
+box-sizing: border-box;
+padding: auto;
+}
+body{
+    margin: 0;
+}
+
+h1  {
+    margin: 0;
+    color: antiquewhite;
+    background-color: black;
+    
+}
+header {
+    background-color: black;
+}
+label{
+    display: block;
+}
+.addinputs{
+     color: aliceblue;
+     background-color: black;
+}
+header h1{
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+    border-bottom: 5px solid black;
+}
+.crud form{
+    display: flex;
+    justify-content: space-around;
+}
+.addinputs{
+    margin: 10px 0px;
+    width: 100%;
+}
