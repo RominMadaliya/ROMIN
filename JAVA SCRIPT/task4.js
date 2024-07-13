@@ -39,3 +39,7 @@ function getRearrange1()
     document.getElementById("result2").innerHTML = str;
     ;
 }
+
+
+
+
