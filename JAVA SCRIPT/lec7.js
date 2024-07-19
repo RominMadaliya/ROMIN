@@ -147,7 +147,7 @@ string.chartcodeAt():-  The charCodeAt() method of String values returns an inte
 // {
 //     let str=' this is a javascript  string method!'
 //     1234567890123456789012345678901234567890
-//     0123456789012345678901234567890123
+//     0123456789012345678901234567890123456789
 
 //     let char1 = str.charAt(-11)
 //     console.log(char1);
